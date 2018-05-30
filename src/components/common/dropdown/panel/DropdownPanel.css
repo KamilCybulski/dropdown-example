@@ -1,0 +1,10 @@
+.dropdown-panel {
+  position: absolute;
+  opacity: 0;
+  transform: scale(0);
+}
+
+.dropdown-panel--visible {
+  opacity: 1;
+  transform: scale(1);
+}
